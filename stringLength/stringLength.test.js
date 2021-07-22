@@ -15,6 +15,6 @@ describe('My stringLength function', () => {
   });
   
   it('returns an error if there is no string', () => {
-    expect(stringLength()).toBe('You must pass a string');
+    expect(stringLength()).toBe('There is no string');
   });
 });

@@ -8,7 +8,7 @@ const stringLength = (string) => {
     } 
     return string.length;
   }
-  return 'You must pass a string'
+  return 'There is no string'
 }
 
 module.exports = stringLength;
